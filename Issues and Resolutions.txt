@@ -1,0 +1,6 @@
+1. Use Spring's @ComponentScan(basepackage={})
+2. Use Spring's @RestController
+3. Download ojdbc.jar from Oracle and put it in C:\\Users\\murmohan\\.m2\\repository\\com\\oracle\\odbc\\ojdbc7.jar.
+    Run the command-- mvn install:install-file -Dfile=C:\\Users\\murmohan\\.m2\\repository\\com\\oracle\\odbc\\ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.1 -Dpackaging=jar<dependency>
+4. alter user buddz account unlock;
+   grant connect, resource to buddz;
